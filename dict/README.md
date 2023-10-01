@@ -18,9 +18,11 @@ The result is the source `words.txt` dictionary used by `../crossword.js`:
 
 ### Step 2: Bee and Wordle
 
-From `words.txt` the, the other dictionaries are assembled:
+From `words.txt` the other dictionaries are assembled:
 
 `node make_bee_dict.js` and `node make_wordle_dict.js`
+
+These produce `bee.txt` and `wordle.txt`, respectively.
 
 ## Adding your own words
 
