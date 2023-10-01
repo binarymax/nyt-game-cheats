@@ -33,7 +33,7 @@ Template blanks also work with other non-alpha characters like `.`, `?`, `-`, `,
 
 `./crossword.js awe..me`
 
-The dictionary is quite extensive, but doesn't contain everything.  Pop culture names like songs and movies might not be found.  It also doesn't help find multiple words such as `outtolunch`, unless they are in the dictionary.  It also doesn't identify rebus.
+The dictionary is quite extensive, but doesn't contain everything.  Slang and pop culture names like songs and movies might not be found.  It also doesn't help find multiple words such as `outtolunch`, unless they are in the dictionary.  It also doesn't identify rebus.  You can modify the dictionary if you want (see below in About the Dictionaries)
 
 Another example:
 

@@ -1,16 +1,20 @@
 # Dictionaries for the Cheats
 
+The programs use two source dictionaries that need to be modified, but are included here so you can rebuild the dictionaries yourself:
+
 `words-edmt.txt` was assembled from https://github.com/eddydn/DictionaryDatabase (MIT License from Public Domain content)
 
-`words-ubuntu.txt` is the dictionary from an old Ubuntu Linux distro, with some (but not all) naughty words filtered.
+`words-ubuntu.txt` is the spelling word list from an old Ubuntu Linux distro, with some (but not all) naughty words filtered.
 
 ## Creating the dictionaries
 
 ### Step 1: Crossword
 
-These are combined and filterd on alpha to make the source `words.txt` dictionary used by `../crossword.js`:
+Combine the source dictionaries, filter on alpha, sort, and deduplicate them in this handy one-liner:
 
 `cat words-*.txt | tr A-Z a-z | sort | uniq >words.txt`
+
+The result is the source `words.txt` dictionary used by `../crossword.js`:
 
 ### Step 2: Bee and Wordle
 
