@@ -86,7 +86,7 @@ Finds possible words based on the existing green, yellow, and grey letters that 
 
 `./wordle.js <green> <yellow> [exclude]`
 
-Where `<green>` is the template for the green letters to keep,  `<yellow>` is the template for the yellow letters to keep but move, and optionally `[exclude]` is the list of grey letters to exclude.  Templates work the same as Crossword templates, but must contain exactly 5 letters.
+Where `<green>` is the 5-letter long template for the green letters to keep,  `[yellow]` is the optional 5-letter long template for the yellow letters to keep but move, and optionally `[exclude]` is the list of grey letters to exclude.  Templates work the same as Crossword templates, but must contain exactly 5 letters.
 
 For example:
 
@@ -99,4 +99,29 @@ great
 greta
 ```
 
+If you only have yellow letters, make the green template all blanks.  For example:
+
+`./wordle.js _____ _ea_r omnsyvl`
+
+Produces:
+
+```
+acerb
+acred
+adure
+afire
+agree
+aigre
+aired
+apert
+arced
+...
+```
+
 *NOTE: The cheats dictionary includes proper nouns and does not exactly match the NYT Wordle dictionary. Some words produced might not be valid in the game, and some words that are valid in the game might be missing.*
+
+---
+
+Made with ❤️ by Max Irwin.
+
+Finished with the daily NYT and want more games?  I made http://anagramica.com and http://pzlbot.com a while ago for anagram lovers.
