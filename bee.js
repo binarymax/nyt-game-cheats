@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 const alpha = /^[a-z]+$/;
-if (process.argv.length !== 4 || process.argv[2].length!==1 || process.argv[2].length!==6) {
+if (process.argv.length !== 4 
+	|| process.argv[2].length!==1 
+	|| process.argv[3].length!==6
+	|| !alpha.test(process.argv[2] + process.argv[3])
+    ) {
 	console.error('Please format your request correctly!');
 	console.error('./bee.js <center> <edge>');
 	console.error('Where <center> is a single letter and <edge> is 6 letters');
