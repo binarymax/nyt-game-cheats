@@ -1,10 +1,10 @@
 # NYT Game Cheats
 
-Command line "helpers" for Crossword, Spelling Bee, and Wordle
-
-Requires Node.js (tested on v20)
+Command line "helpers" for Crossword, Spelling Bee, and Wordle.
 
 ## Install
+
+Requires Node.js (tested on v20)
 
 ```bash
 git clone https://github.com/binarymax/nyt-game-cheats
@@ -120,8 +120,14 @@ arced
 
 *NOTE: The cheats dictionary includes proper nouns and does not exactly match the NYT Wordle dictionary. Some words produced might not be valid in the game, and some words that are valid in the game might be missing.*
 
----
+## About the Dictionaries
 
-Made with ❤️ by Max Irwin.
+See the info in [./dict/README.md](./dict/README.md)
+
+## Footnotes
+
+Made with ❤️ by Max Irwin.  Apache 2.0 Licensed (but the dictionaries have other licenses).
+
+There might unintentionally be some naughty words.  Use at your own risk!
 
 Finished with the daily NYT and want more games?  I made http://anagramica.com and http://pzlbot.com a while ago for anagram lovers.
