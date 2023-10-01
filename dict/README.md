@@ -28,6 +28,6 @@ These produce `bee.txt` and `wordle.txt`, respectively.
 
 If you want to add words to the dictionary, just make a file `words-extra.txt`, with one word on one line each, then run Steps 1 and 2 commands above.
 
-Adding your own words is helpful for crossword, since contractions (like `dont`) and common combined words (like `isit`) are not in the included dictionaries.
+Adding your own words is helpful for crossword, since slang (like `selfie`), contractions (like `dont`), and common combined words (like `isit`) are not in the included dictionaries.
 
-Also, if you made it this far, `epee` isn't in the included dictionary either, and NYT *loves* that word for some reason.  So for fun, try adding that yourself with some contractions.
+Also, if you made it this far, `epee` isn't in the included dictionary either, and NYT crossword *loves* that word for some reason.  So for fun, try adding that yourself with some contractions.  Make sure your words contain letters a-z only.  If there are other characters, they will be filtered/ignored by the cheat programs.
